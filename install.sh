@@ -76,7 +76,7 @@ check_deps() {
 
 # Download the script
 download() {
-    echo -e "Downloading ci-monitor..."
+    echo -e "Downloading ci-monitor..." >&2
     
     local url="https://raw.githubusercontent.com/$REPO/main/ci_monitor.py"
     local tmp_file=$(mktemp)
