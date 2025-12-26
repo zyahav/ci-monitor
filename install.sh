@@ -155,6 +155,11 @@ setup_macos_autostart() {
     </array>
     <key>RunAtLoad</key>
     <true/>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
     <key>StandardOutPath</key>
     <string>$HOME/.ci-monitor/launchd.log</string>
     <key>StandardErrorPath</key>
