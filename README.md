@@ -218,3 +218,4 @@ MIT
 ## Contributing
 
 Issues and pull requests welcome at [github.com/zyahav/ci-monitor](https://github.com/zyahav/ci-monitor)
+
